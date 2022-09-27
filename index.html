@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="WebRTC Pluggable Transport" content="" />
+    <meta name="The Tor Project" content="" />
+    <title>Snowflake | The Tor Project</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/snowflake-purple.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <!-- Snowflake icon
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/snowflake-white.svg" width="25px" height="25px" />
+                </a>
+                -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.torproject.org/">About The Tor
+                                Project</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                <li><a class="dropdown-item" href="">Language 1</a></li>
+                                <li><a class="dropdown-item" href="">Language 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Snowflake</h1>
+                            <p class="lead fw-normal text-white-50 mb-4">Snowflake is a system that allows people from
+                                all over the world to access censored websites and applications.</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#run">Run a Snowflake Proxy</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#use">Use Snowflake</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5"
+                            src="https://snowflake.torproject.org/snowflake-schematic.png" alt="..." /></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Snowflake-->
+        <section class="py-5 bg-white" id="intro">
+            <div class="container px-5 my-5">
+                <div class="row gx-5 align-items-center">
+                    <h1 class="fw-bolder mb-3">What's Snowflake?</h1>
+                    <p class="lead fw-normal mb-4">Similar to how VPNs assist users in getting around Internet
+                        censorship, Snowflake helps you avoid being noticed by Internet censors by making your Internet
+                        activity appear as though you're using the Internet for a regular video or voice
+                        call.<br /><br />
+
+                        There are numerous tools available, such as Snowflake, that "transform" Internet activity, each
+                        using a different technique. Some redirect Internet traffic to appear to be coming from popular
+                        cloud providers like Microsoft Azure and Amazon Web Services. Others scramble Internet traffic
+                        in order to make it appear completely random. It therefore becomes costly for censors to
+                        consider blocking such circumvention tools since it would require blocking large parts of the
+                        Internet in order to achieve the initial targeted goal.</p>
+                </div>
+            </div>
+
+            <!-- Run Snowflake -->
+            <section class="py-5 bg-light" id="run">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <h2 class="fw-bolder">Run a Snowflake proxy and help people bypass censorship</h2>
+                        <p class="lead fw-light text-muted">Did you know that Snowflake proxies are operated entirely by
+                            volunteers? In other words, a censored user gets matched with a random Snowflake volunteer
+                            proxy which is
+                            run by a volunteer like you! So, if you want to help people bypass censorship, consider
+                            installing and running a Snowflake proxy. The only prerequisite is that the Internet in your
+                            country is not heavily censored already.
+                            <br /><br />
+                            You can join thousands of volunteers from around the world who have a Snowflake proxy
+                            installed and running. There is no need to worry about which websites people are accessing
+                            through your Snowflake proxy. Their visible browsing IP address will match their Tor exit
+                            node, not yours.
+                            <br /><br />
+                            There are <strong>3 different ways</strong> to run a Snowflake proxy (beginner to advanced):
+                        </p>
+                        <!-- Accordion -->
+                        <h2 class="fw-bolder mb-3"></h2>
+                        <div class="accordion mb-5" id="accordionExample">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingOne"><button class="accordion-button"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">1) Install the web
+                                        extension</button></h3>
+                                <div class="accordion-collapse collapse show" id="collapseOne"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            The web extension is the easiest way to run a Snowflake proxy. Simply
+                                            install it on Firefox or Chrome, enable the extension, and watch the icon
+                                            turn green when a user connects through your proxy!
+                                        </p>
+                                        <div
+                                            class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                            <a class="btn btn-primary btn-me px-3"
+                                                href="https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/"><img
+                                                    class="img-browser" src="./assets/firefox.svg" />Install
+                                                in Firefox</a>
+                                            <a class="btn btn-primary btn-me px-3"
+                                                href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie"><img
+                                                    class="img-browser" src="./assets/chrome.svg" />Install
+                                                in Chrome</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">2) Leave this browser tab open
+                                        or embed a web badge on your website</button></h3>
+                                <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            If you switch on the Snowflake below and leave this browser tab open, a user
+                                            can connect through your new proxy!
+                                            Alternatively, you can embed a Snowflake proxy yourself inside a page in
+                                            your own website (for example: <a
+                                                href="https://relay.love/">https://relay.love</a>). Visitors to your
+                                            site can enter the page, enable the proxy, and leave it open to allow people
+                                            to proxy through it (it behaves and looks exactly like the web extension).
+                                        </p>
+
+                                        <p>
+                                            <code><textarea readonly="">&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea></code>
+                                        </p>
+
+                                        <p>
+                                            <iframe src="https://snowflake.torproject.org/embed.html" width="320"
+                                                height="240" frameborder="0" scrolling="no"></iframe>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingThree"><button
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">3) Run a standalone proxy</button></h3>
+                                <div class="accordion-collapse collapse" id="collapseThree"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        If you would like to run a command-line version of the Snowflake proxy on your
+                                        desktop or server, see our <a
+                                            href="https://community.torproject.org/relay/setup/snowflake/standalone/">guide</a>
+                                        for running a Snowflake standalone proxy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Use Snowflake -->
+            <section class="py-5 bg-white" id="use">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-7">
+                            <h2 class="fw-bolder">Use Snowflake to bypass censorship</h2>
+                            <p class="lead fw-normal text-muted">Unlike VPNs, you do not need to install a separate
+                                application to connect to a Snowflake proxy and bypass censorship. It is usually a
+                                circumvention feature embedded within existing apps. Currently Snowflake is available
+                                inside <a href="https://torproject.org/download">Tor Browser</a> on Desktop and Android,
+                                <a href="https://onionbrowser.com">Onion Browser</a> on iOS, and <a
+                                    href="https://orbot.app">Orbot</a> on Android and iOS. If you have downloaded and
+                                installed any of these apps, and they are censored in your country, you can bypass the
+                                censorship by activating Snowflake through the apps' settings page.
+                            </p>
+                        </div>
+                        <div class="col-lg-5">
+                            <img class="img-fluid rounded mb-5 mb-lg-0"
+                                src="https://snowflake.torproject.org/screenshot.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-5 bg-light">
+                <div class="container px-5">
+                    <div class="row gx-5">
+                        <div class="col-xl-8">
+                            <h2 class="fw-bolder fs-5 mb-4">Learn more about how Snowflake works</h2>
+                            <div class="mb-4">
+                                <p class="fw-light text-muted">
+                                    Snowflake is a new circumvention technology, part of the <a
+                                        href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">Pluggable
+                                        Transports</a> family, that is continuously being improved. Curious to learn
+                                    more about its architecture? Feel free to check this <a
+                                        href="https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview">Technical
+                                        overview</a> (in English). If you're interested in making use of Snowflake
+                                    inside your application, get in touch with <a
+                                        href="https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team">anti-censorship
+                                        team.</a>
+                                </p>
+                            </div>
+                            <h2 class="fw-bolder fs-5 mb-4">Reporting bugs</h2>
+                            <div class="mb-4">
+                                <p class="fw-light text-muted">
+                                    If you encounter problems with Snowflake - whether you're using it or running it -,
+                                    please consider filing a bug report. There are two ways to file a bug report:
+                                </p>
+                                <ol class="fw-light text-muted">
+                                    <li><a href="https://gitlab.onionize.space/">Request an account</a> at the Tor
+                                        Project GitLab, then <a
+                                            href="https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues">open
+                                            a new issue</a> in the Snowflake project.</li>
+                                    <li>File an <a href="https://anonticket.onionize.space/">anonymous ticket</a> by
+                                        generating an identifier and logging in with it. Then, find the Snowflake
+                                        project in the <strong>List of all projects</strong> and create a new issue.
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="card border-0 h-100">
+                                <div class="card-body p-4">
+                                    <div class="d-flex h-100 align-items-center justify-content-center">
+                                        <div class="text-left">
+                                            <div class="h6 fw-bolder">Seek support</div>
+                                            <p class="text-muted mb-4">
+                                                If you encounter issues while trying to connect to Tor using Snowflake,
+                                                you can reach our support team via:
+                                            <ul>
+                                                <li><a href="https://t.me/TorProjectSupportBot">Telegram</a></li>
+                                                <li><a href="mailto:frontdesk@torproject.org">Email</a></li>
+                                                <li><a href="https://forum.torproject.net/tag/snowflake">Tor Forum</a>
+                                                </li>
+                                            </ul>
+                                            </p>
+                                            <p class="text-muted mb-4">
+                                                You can also browse the <a
+                                                    href="https://support.torproject.org/censorship/">Tor Support
+                                                    Portal</a> for answers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+</body>
+
+<!-- Footer-->
+<footer class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div class="col-auto">
+                <div class="small m-0 text-white">The Tor Project</div>
+            </div>
+            <div class="col-auto">
+                <a class="link-light small" href="https://t.me/torprojectsupportbot">Telegram</a>
+                <span class="text-white mx-1">&middot;</span>
+                <a class="link-light small" href="mailto:frontdesk@torproject.org">Email</a>
+                <span class="text-white mx-1">&middot;</span>
+                <a class="link-light small" href="https://forum.torproject.net/">Forum</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+</html>
