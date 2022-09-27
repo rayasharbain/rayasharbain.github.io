@@ -145,7 +145,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
-  line-height: 1.2;
+  line-height: 1.5rem;
 }
 
 p {
@@ -274,8 +274,8 @@ pre code {
 }
 
 code {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   color: #d63384;
   word-wrap: break-word;
 }
@@ -355,7 +355,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
   max-width: 100%;
-  width: 600px;
+  width: 320px;
   padding: 0.75em;
 }
 
@@ -479,8 +479,18 @@ output {
 
 iframe {
   border: 0;
+  border-radius: .5rem;
+  box-shadow: 0 1rem 3rem -.5rem rgba(0,0,0,0.25);
+  background-color: #fff;
+  margin: 0 auto 0 0;
 }
 
+@media (max-width: 768px){
+  .iframe {
+    margin: var(--spacing-large) auto 0 auto;
+    width: 1vw !important;
+  }
+}
 summary {
   display: list-item;
   cursor: pointer;
@@ -498,6 +508,12 @@ progress {
   font-size: 1.25rem;
   font-weight: 300;
 }
+@media (min-width: 320px) {
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.5em;
+  }
+}
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
@@ -511,16 +527,20 @@ progress {
 }
 
 .display-2 {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-2 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 }
-
+@media (min-width: 320px) {
+  .display-2 {
+    font-size: 3rem;
+  }
+}
 .display-3 {
   font-size: 4.5rem;
   font-weight: 300;
@@ -3499,7 +3519,7 @@ textarea.form-control-lg {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   border-radius: 0.3rem;
 }
 
@@ -4699,6 +4719,12 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .accordion-button {
     transition: none;
+  }
+}
+@media (min-width: 320px) {
+  .accordion-button {
+    font-size: 1rem;
+    line-height: 1.2em;
   }
 }
 .accordion-button:not(.collapsed) {
