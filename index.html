@@ -20,7 +20,7 @@
 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
+            <div class="container px-6">
                 <!-- Snowflake icon
                 <a class="navbar-brand" href="index.html">
                     <img src="./assets/snowflake-white.svg" width="25px" height="25px" />
@@ -54,7 +54,7 @@
                 <div class="row gx-5 align-items-center justify-content-center">
                     <div class="col-lg-8 col-xl-7 col-xxl-6">
                         <div class="my-5 text-center text-xl-start">
-                            <h1 class="display-5 fw-bolder text-white mb-2">Snowflake</h1>
+                            <h1 class="display-2 text-white mb-2">Snowflake</h1>
                             <p class="lead fw-normal text-white-50 mb-4">Snowflake is a system that allows people from
                                 all over the world to access censored websites and applications.</p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
@@ -73,7 +73,7 @@
         <section class="py-5 bg-white" id="intro">
             <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
-                    <h1 class="fw-bolder mb-3">What's Snowflake?</h1>
+                    <h1 class="display-5 mb-3">What's Snowflake?</h1>
                     <p class="lead fw-normal mb-4">Similar to how VPNs assist users in getting around Internet
                         censorship, Snowflake helps you avoid being noticed by Internet censors by making your Internet
                         activity appear as though you're using the Internet for a regular video or voice
@@ -93,19 +93,20 @@
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
                         <h2 class="fw-bolder">Run a Snowflake proxy and help people bypass censorship</h2>
-                        <p class="lead fw-light text-muted">Did you know that Snowflake proxies are operated entirely by
+                        <p class="lead fw-light">Did you know that Snowflake proxies are operated entirely by
                             volunteers? In other words, a censored user gets matched with a random Snowflake volunteer
                             proxy which is
                             run by a volunteer like you! So, if you want to help people bypass censorship, consider
                             installing and running a Snowflake proxy. The only prerequisite is that the Internet in your
-                            country is not heavily censored already.
+                            country is <mark>not heavily censored already</mark>.
                             <br /><br />
                             You can join thousands of volunteers from around the world who have a Snowflake proxy
                             installed and running. There is no need to worry about which websites people are accessing
                             through your Snowflake proxy. Their visible browsing IP address will match their Tor exit
                             node, not yours.
                             <br /><br />
-                            There are <strong>3 different ways</strong> to run a Snowflake proxy (beginner to advanced):
+                            There are <mark><strong>3 different ways</strong></mark> to run a Snowflake proxy (beginner
+                            to advanced):
                         </p>
                         <!-- Accordion -->
                         <h2 class="fw-bolder mb-3"></h2>
@@ -118,11 +119,11 @@
                                 <div class="accordion-collapse collapse show" id="collapseOne"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>
+                                        <h6 class="mb-4">
                                             The web extension is the easiest way to run a Snowflake proxy. Simply
                                             install it on Firefox or Chrome, enable the extension, and watch the icon
                                             turn green when a user connects through your proxy!
-                                        </p>
+                                        </h6>
                                         <div
                                             class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                                             <a class="btn btn-primary btn-me px-3"
@@ -145,7 +146,7 @@
                                 <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>
+                                        <h6 class="mb-4">
                                             If you switch on the Snowflake below and leave this browser tab open, a user
                                             can connect through your new proxy!
                                             Alternatively, you can embed a Snowflake proxy yourself inside a page in
@@ -153,7 +154,7 @@
                                                 href="https://relay.love/">https://relay.love</a>). Visitors to your
                                             site can enter the page, enable the proxy, and leave it open to allow people
                                             to proxy through it (it behaves and looks exactly like the web extension).
-                                        </p>
+                                        </h6>
 
                                         <p>
                                             <code><textarea readonly="">&lt;iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</textarea></code>
@@ -174,10 +175,13 @@
                                 <div class="accordion-collapse collapse" id="collapseThree"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        If you would like to run a command-line version of the Snowflake proxy on your
-                                        desktop or server, see our <a
-                                            href="https://community.torproject.org/relay/setup/snowflake/standalone/">guide</a>
-                                        for running a Snowflake standalone proxy.
+                                        <h6>
+                                            If you would like to run a command-line version of the Snowflake proxy on
+                                            your
+                                            desktop or server, see our <a
+                                                href="https://community.torproject.org/relay/setup/snowflake/standalone/">guide</a>
+                                            for running a Snowflake standalone proxy.
+                                        </h6>
                                     </div>
                                 </div>
                             </div>
@@ -192,8 +196,10 @@
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-7">
                             <h2 class="fw-bolder">Use Snowflake to bypass censorship</h2>
-                            <p class="lead fw-normal text-muted">Unlike VPNs, you do not need to install a separate
-                                application to connect to a Snowflake proxy and bypass censorship. It is usually a
+                            <p class="lead fw-normal">Unlike VPNs, you <mark><strong></strong>do not need to install a
+                                    separate
+                                    application</mark> to connect to a Snowflake proxy and bypass censorship. It is
+                                usually a
                                 circumvention feature embedded within existing apps. Currently Snowflake is available
                                 inside <a href="https://torproject.org/download">Tor Browser</a> on Desktop and Android,
                                 <a href="https://onionbrowser.com">Onion Browser</a> on iOS, and <a
@@ -209,18 +215,20 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Final -->
             <section class="py-5 bg-light">
                 <div class="container px-5">
                     <div class="row gx-5">
                         <div class="col-xl-8">
                             <h2 class="fw-bolder fs-5 mb-4">Learn more about how Snowflake works</h2>
                             <div class="mb-4">
-                                <p class="fw-light text-muted">
+                                <p class="fw-light">
                                     Snowflake is a new circumvention technology, part of the <a
                                         href="https://gitweb.torproject.org/torspec.git/tree/pt-spec.txt">Pluggable
                                         Transports</a> family, that is continuously being improved. Curious to learn
                                     more about its architecture? Feel free to check this <a
-                                        href="https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview">Technical
+                                        href="https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview">technical
                                         overview</a> (in English). If you're interested in making use of Snowflake
                                     inside your application, get in touch with <a
                                         href="https://lists.torproject.org/cgi-bin/mailman/listinfo/anti-censorship-team">anti-censorship
@@ -229,11 +237,11 @@
                             </div>
                             <h2 class="fw-bolder fs-5 mb-4">Reporting bugs</h2>
                             <div class="mb-4">
-                                <p class="fw-light text-muted">
+                                <p class="fw-light">
                                     If you encounter problems with Snowflake - whether you're using it or running it -,
                                     please consider filing a bug report. There are two ways to file a bug report:
                                 </p>
-                                <ol class="fw-light text-muted">
+                                <ol class="fw-light">
                                     <li><a href="https://gitlab.onionize.space/">Request an account</a> at the Tor
                                         Project GitLab, then <a
                                             href="https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues">open
@@ -246,26 +254,26 @@
                             </div>
                         </div>
                         <div class="col-xl-4">
-                            <div class="card border-0 h-100">
+                            <div class="card border-0 h-80">
                                 <div class="card-body p-4">
-                                    <div class="d-flex h-100 align-items-center justify-content-center">
+                                    <div class="d-flex h-80 align-items-center justify-content-center">
                                         <div class="text-left">
-                                            <div class="h6 fw-bolder">Seek support</div>
-                                            <p class="text-muted mb-4">
+                                            <div class="fs-5 fw-bolder mb-2">Seek support</div>
+                                            <h6 class="text-muted">
                                                 If you encounter issues while trying to connect to Tor using Snowflake,
                                                 you can reach our support team via:
+                                            </h6>
                                             <ul>
                                                 <li><a href="https://t.me/TorProjectSupportBot">Telegram</a></li>
                                                 <li><a href="mailto:frontdesk@torproject.org">Email</a></li>
                                                 <li><a href="https://forum.torproject.net/tag/snowflake">Tor Forum</a>
                                                 </li>
                                             </ul>
-                                            </p>
-                                            <p class="text-muted mb-4">
+                                            <h6 class="text-muted">
                                                 You can also browse the <a
                                                     href="https://support.torproject.org/censorship/">Tor Support
                                                     Portal</a> for answers.
-                                            </p>
+                                            </h6>
                                         </div>
                                     </div>
                                 </div>
